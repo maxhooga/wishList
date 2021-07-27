@@ -9,3 +9,5 @@ For SSR uses PUG library
 
 ## How to start
 to run application you have to install all dependencies with `npm i` and then just `npm start`
+
+При запуске, все файлы которые находятся в папке `src/pages` будут отрендерены как `.html` в папку `dist`.
