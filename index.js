@@ -28,7 +28,7 @@ const errorHandler = (filename, filePath) => (err) => {
     }
 };
 
-// Выбираем все файлы из попки куда надо складывать HTML файлы
+// Выбираем все файлы из папки куда надо складывать HTML файлы
 // https://nodejs.org/api/fs.html#fs_fs_readdirsync_path_options
 const files = fs.readdirSync(PAGES_FOLDER);
 
@@ -55,6 +55,7 @@ files.forEach((originalFilename) => {
     );
 });
 
+console.log('hi');
 // fs.writeFile(
 //   'outputHTML.html',
 //   pug.renderFile('product.pug', { pretty: PRETTY_FLAG }),
