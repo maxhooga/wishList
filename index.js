@@ -55,7 +55,6 @@ files.forEach((originalFilename) => {
     );
 });
 
-console.log('hi');
 // fs.writeFile(
 //   'outputHTML.html',
 //   pug.renderFile('product.pug', { pretty: PRETTY_FLAG }),
