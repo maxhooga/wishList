@@ -1,0 +1,9 @@
+{
+    "verbose": true,
+    "ext": "js pug css html",
+    "watch": [
+        "index.js",
+        "src/"
+    ],
+    "exec": "npm run render"
+  }

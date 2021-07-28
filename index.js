@@ -39,7 +39,7 @@ files.forEach((originalFilename) => {
     const chunks = originalFilename.split('.');
     // Если файл не имеет разрешения pug
     // То ничего не делать и завершить выполнение.
-    if (!(chunks[chunks.length - 1] !== 'pug')) return;
+    if (chunks[chunks.length - 1] !== 'pug') return;
     // Соединяем название файла точками, за исключением последнего элемента ([...].join(...))
     // ['product', 'template', 'pug'] => product.template.html
     const targetFilename = `${chunks.slice(0, chunks.length - 1).join('.')}.html`;
