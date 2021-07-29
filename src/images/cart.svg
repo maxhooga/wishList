@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20.004" height="20" viewBox="0 0 20.004 20">
+  <g id="Сгруппировать_53" data-name="Сгруппировать 53" transform="translate(-1159.998 -48)">
+    <path id="Bag" d="M20.28,20.045H2L3.828,7H18.452Z" transform="translate(1158.86 47.205)" fill="none" stroke="#111" stroke-linecap="square" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="Handle" d="M8,9.182V4.636A3.843,3.843,0,0,1,12,1h0a3.843,3.843,0,0,1,4,3.636V9.182" transform="translate(1158 47.75)" fill="none" stroke="#111" stroke-linecap="square" stroke-miterlimit="10" stroke-width="1.5"/>
+    <circle id="Bag_Item" data-name="Bag Item" cx="3" cy="3" r="3" transform="translate(1167 58)" fill="#2b2b2b"/>
+  </g>
+</svg>
