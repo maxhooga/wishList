@@ -4,6 +4,8 @@
     border: 1px solid black;
 }
 .flexBox-header{
+    display: flex;
+    flex-direction: row;
     border: 1px solid black;
     min-height: 20px;
     width: 100%;
@@ -22,4 +24,8 @@
     border: 1px solid red;
     min-height: 20px;
     width: 100%;
+}
+.icon{
+    width: 20px;
+    height: 20px;
 }
