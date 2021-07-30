@@ -1,0 +1,61 @@
+.flexContainer{
+    border: 1px solid black;    
+    min-width: 959px;
+}
+.flexBox-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    min-height: 20px;
+    width: 100%;    
+}
+.icon{
+    width: 20px;
+    height: 20px;
+}
+.icon img{
+    width: 100%;
+    height: 100%;
+}
+.rightSide{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    border: 1px solid red;
+    width: 100%;    
+    align-items: center; 
+}
+.rightSide *{
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.leftSide{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid red;
+    width: 100%;
+}
+
+
+
+
+
+body{
+    display: flex;
+    justify-content: center;    
+}
+.flexBox-navigation{
+    border: 1px solid yellow;
+    min-height: 20px;
+    width: 100%;
+}
+.flexBox-body{
+    border: 1px solid green;
+    min-height: 20px;
+    width: 100%;
+}
+.flexBox-footer{
+    border: 1px solid red;
+    min-height: 20px;
+    width: 100%;
+}
