@@ -1,4 +1,5 @@
 const pug = require('pug');
+const sass = require('sass');
 const fs = require('fs');
 const path = require('path');
 
@@ -32,6 +33,19 @@ const errorHandler = (filename, filePath) => (err) => {
 // https://nodejs.org/api/fs.html#fs_fs_readdirsync_path_options
 const files = fs.readdirSync(PAGES_FOLDER);
 
+//
+const result = sass.renderSync({
+    file: 'src/style/input.scss',
+    sourceMap: true,
+    outFile: 'dist/output.css'
+});
+fs.writeFileSync(
+    'dist/output.css',
+    result.css.toString()
+);
+
+//
+
 files.forEach((originalFilename) => {
     // Удаляем расширение файла из имени файла
     // Разбиваем название файла по точкам
@@ -48,6 +62,7 @@ files.forEach((originalFilename) => {
     // path.join - просто соединяем элементы массива в путь к файлв или папке
     const originalFilePath = path.join(PAGES_FOLDER, originalFilename);
     const targetFilePath = path.join(DIST_FOLDER, targetFilename);
+
     fs.writeFile(
         targetFilePath,
         pug.renderFile(originalFilePath, { pretty: PRETTY_FLAG }),

@@ -1,5 +1,5 @@
-.flexContainer{
-    display: inline-block;
-    border: 1px solid black;    
-    width: 959px;
+div {
+  border: 1px solid blue;
 }
+
+/*# sourceMappingURL=test.css.map */

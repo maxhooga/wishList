@@ -25,9 +25,8 @@
     width: 100%;    
     align-items: center; 
 }
-.rightSide *{
+.rightSide a{
     margin-left: 10px;
-    margin-right: 5px;
 }
 .leftSide{
     display: flex;
