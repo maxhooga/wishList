@@ -1,5 +1,4 @@
 .flexContainer{
-    
     min-width: 959px;
 }
 .flexBox-header{
@@ -21,13 +20,11 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-
     width: 100%;    
     align-items: center; 
 }
-.rightSide *{
+.rightSide a{
     margin-left: 10px;
-    margin-right: 5px;
 }
 .leftSide{
     display: flex;
