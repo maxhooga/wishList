@@ -37,13 +37,12 @@ const files = fs.readdirSync(PAGES_FOLDER);
 const result = sass.renderSync({
     file: 'src/style/input.scss',
     sourceMap: true,
-    outFile: 'dist/output.css'
+    outFile: 'output.css'
 });
 fs.writeFileSync(
-    'dist/output.css',
+    'src/output.css',
     result.css.toString()
 );
-
 //
 
 files.forEach((originalFilename) => {

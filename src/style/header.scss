@@ -1,16 +1,16 @@
-.flexContainer{
-    min-width: 959px;
-}
+$iconSize: 20px;
+$headerHeight: 20px;
+
 .flexBox-header{
     display: flex;
     flex-direction: row;
     justify-content: space-between; 
-    min-height: 20px;
+    min-height: $headerHeight;
     width: 100%;    
 }
 .icon{
-    width: 20px;
-    height: 20px;
+    width: $iconSize;
+    height: $iconSize;
 }
 .icon img{
     width: 100%;
@@ -29,25 +29,5 @@
 .leftSide{
     display: flex;
     flex-direction: row;
-
-    width: 100%;
-}
-body{
-    display: flex;
-    justify-content: center;    
-}
-.flexBox-navigation{
-
-    min-height: 20px;
-    width: 100%;
-}
-.flexBox-body{
-
-    min-height: 20px;
-    width: 100%;
-}
-.flexBox-footer{
-
-    min-height: 20px;
     width: 100%;
 }

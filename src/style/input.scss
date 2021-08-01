@@ -1,5 +1,17 @@
-$color: rgba(0,0,0,0);
+@import 'navigation.scss', 'header.scss';
 
-div {
-    border:1px solid $color ;
+.flexContainer{
+    min-width: 960px;
+}
+body{
+    display: flex;
+    justify-content: center;    
+}
+.flexBox-body{
+    min-height: 20px;
+    width: 100%;
+}
+.flexBox-footer{
+    min-height: 20px;
+    width: 100%;
 }

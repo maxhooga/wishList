@@ -1,0 +1,28 @@
+$navigationHeight: 38px;
+$textColor: #E8E8E8;
+$backgroundColor: #2B2B2B;
+$font: 'Roboto', sans-serif;
+
+.flexBox-navigation{
+    min-height: $navigationHeight;
+    background-color: $backgroundColor;
+    width: 100%;
+}
+.flexBox-navigation ul{
+    width: 100%;    
+    height: $navigationHeight;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.flexBox-navigation ul > {
+    li > {
+        a{
+            text-decoration: none;            
+            font-size: 13px;
+            color: $textColor;
+            font-family: $font;
+        }       
+    }
+}

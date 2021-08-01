@@ -1,6 +1,6 @@
 {
     "verbose": true,
-    "ext": "js pug css html",
+    "ext": "js pug css html scss",
     "watch": [
         "index.js",
         "src/"
