@@ -1,14 +1,14 @@
 doctype html
 html
     head
-        style
-            include style/wishList.css
-            include style/reset.css
-            include ../dist/output.css
+        meta(charset="utf-8")
+        link(href="style/output.css" rel="stylesheet")
+        link(href="style/reset.css" rel="stylesheet")
     body
         div.flexContainer
             header.flexBox-header 
                 include includes/header.pug
-            div.flexBox-navigation nav
+            div.flexBox-navigation 
+                include includes/navigation.pug
             block content
             div.flexBox-footer footer
