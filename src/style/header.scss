@@ -1,16 +1,15 @@
-$iconSize: 20px;
-$headerHeight: 20px;
+@import 'variables.scss';
 
 .flexBox-header{
     display: flex;
     flex-direction: row;
     justify-content: space-between; 
-    min-height: $headerHeight;
+    min-height: $header_height;
     width: 100%;    
 }
 .icon{
-    width: $iconSize;
-    height: $iconSize;
+    width: $header_icon_size;
+    height: $header_icon_size;
 }
 .icon img{
     width: 100%;

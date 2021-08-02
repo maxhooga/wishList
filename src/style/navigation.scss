@@ -1,11 +1,8 @@
-$navigationHeight: 38px;
-$textColor: #E8E8E8;
-$backgroundColor: #2B2B2B;
-$font: 'Roboto', sans-serif;
+@import 'variables.scss';
 
 .flexBox-navigation{
-    min-height: $navigationHeight;
-    background-color: $backgroundColor;
+    min-height: $navigation_height;
+    background-color: $navigation_background_color;
     width: 100%;
 }
 .flexBox-navigation ul{
@@ -21,7 +18,7 @@ $font: 'Roboto', sans-serif;
         a{
             text-decoration: none;            
             font-size: 13px;
-            color: $textColor;
+            color: $navigation_text_color;
             font-family: $font;
         }       
     }
