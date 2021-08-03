@@ -2,13 +2,13 @@ doctype html
 html
     head
         meta(charset="utf-8")
-        link(href="style/output.css" rel="stylesheet")
+        link(href="style/global.css" rel="stylesheet")
         link(href="style/reset.css" rel="stylesheet")
     body
         div.flexContainer
             header.flexBox-header 
                 include includes/header.pug
-            div.flexBox-navigation 
+            nav.flexBox-navigation 
                 include includes/navigation.pug
             block content
             div.flexBox-footer footer
