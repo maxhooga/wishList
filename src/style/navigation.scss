@@ -8,18 +8,34 @@
 .flexBox-navigation ul{
     width: 100%;    
     height: $navigation_height;
-    align-items: center;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    
 }
 .flexBox-navigation ul > {
+    li{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.flexBox-navigation ul > {
     li > {
-        a{
-            text-decoration: none;            
+        a{          
+            text-decoration: none;
             font-size: 13px;
             color: $navigation_text_color;
             font-family: $font;
-        }       
+
+            justify-content: space-around;
+            align-items: center;
+            display: flex;
+            width: 100%;
+            height: 100%;
+        }
+        a:hover{
+            background-color: $navigation_text_color;
+            color: $navigation_background_color;
+        }      
     }
 }
