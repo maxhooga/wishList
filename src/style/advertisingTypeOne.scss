@@ -1,0 +1,13 @@
+@import 'variables.scss';
+
+
+.advertising-type-one{
+    min-width: 50px;
+    min-height: 25px;
+    flex-direction: row;
+    display: flex;
+}
+.advertising ul{
+    display: flex;
+    flex-direction: row;
+}
